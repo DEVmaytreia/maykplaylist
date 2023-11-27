@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #2b9b3a, #000000); /* Gradiente de verde para preto */
+    color: #111010; /* Cor do texto para branco */
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section {
+    padding: 40px 0;
+    color: #b6afaf; /* Cor do texto para cinza claro */
+}
+
+h2 {
+    color: #d0cdcd; /* Cor do texto dos títulos para branco */
+}
+
+button {
+    background: linear-gradient(to bottom, rgb(120, 32, 38), #000000); /* Degradê de vermelho para preto nos botões */
+    color: #fff; /* Cor do texto para branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #2eb6ff, #000000); /* Degradê de vermelho mais intenso para preto nos botões ao passar o mouse */
+}
